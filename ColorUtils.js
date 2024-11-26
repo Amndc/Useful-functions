@@ -30,3 +30,23 @@ function validaLuminosidade(hex) {
        return 0
     }
 }
+function getColor(ide) {
+         var key = ide.toString()
+         var testeecor = localStorage.getItem(key);
+ 
+         if (testeecor == null) {
+             const e = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 'A', 'B', 'C', 'D', 'E', 'F'];
+             let t = `#`;
+
+             for (let s = 0; s < 6; s++) {
+                 var index = Math.floor(e.length * Math.random());
+                 t += e[index]
+             }
+             window.localStorage.setItem(ide, t);
+             return t
+         }
+         else {
+             let t = testeecor;
+             return t
+         }
+     }
