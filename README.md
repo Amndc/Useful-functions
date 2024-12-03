@@ -4,7 +4,7 @@ Este repositório contém um compilado de funções utilitárias em JavaScript p
 ## Funções
 
 ### 1. **Função de Geração de Cores**
-- **Descrição**: Função para gerar cores em diferentes aleatorias em hex, armazena no localstorage e permite buscar por um identificador. 
+- **Descrição**: Função para gerar cores em hexadecimal passando algum valor, armazena no localstorage e permite buscar por um identificador. 
 - **Exemplo de uso**:
   ```javascript
   const randomColor = generateColor();
