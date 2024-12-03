@@ -30,7 +30,7 @@ function validaLuminosidade(hex) {
        return 0
     }
 }
-function getColor(ide) {
+function generateColor(ide) {
          var key = ide.toString()
          var testeecor = localStorage.getItem(key);
  
