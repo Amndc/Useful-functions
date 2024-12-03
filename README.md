@@ -9,7 +9,7 @@ Este repositório contém um compilado de funções utilitárias em JavaScript p
   ```javascript
   const randomColor = generateColor();
   document.body.style.backgroundColor = randomColor;
-### 2. **Funções de Geração de Cores Monocromaticas"" 
+### 2. **Funções de Geração de Cores Monocromaticas** 
 -**Descrição**: Função para gerar cores a partir de uma cor inicial. 
 - **Exemplo de uso**:
     ```javascript
