@@ -1,4 +1,4 @@
-# useful-functions
+# Useful-functions
 Este repositório contém um compilado de funções utilitárias em JavaScript para facilitar a manipulação do DOM, criação de elementos, estilização dinâmica e outras operações comuns no desenvolvimento web.
 
 ## Funções
